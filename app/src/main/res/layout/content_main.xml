@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="gq.codester.maris.benjaminfranklin13virtues.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+<HorizontalScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_marginLeft="5dp">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/t00"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+            <TextView
+                android:id="@+id/t01"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Mon"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/t02"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Tue"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/t03"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Wed"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/t04"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Thu"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/t05"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Fri"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/t06"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Sat"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/t07"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Sun"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/t10"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Temperence"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/t20"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Silence"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/t30"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Order"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/t40"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Resolution"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/t50"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Frugality"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/t60"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Industry"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/t70"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Sincerity"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/t80"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Justice"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/t90"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Moderation"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/t100"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Cleanliness"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/t110"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Tranquility"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/t120"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Chasity"
+                android:textStyle="bold"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/t130"
+                android:minWidth="50dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Humility"
+                android:textStyle="bold"/>
+
+        </TableRow>
+    </TableLayout>
+
+</HorizontalScrollView>
+
+</android.support.constraint.ConstraintLayout>
